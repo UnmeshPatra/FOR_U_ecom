@@ -1,0 +1,17 @@
+# Env files
+.env
+.env.*      # in case you use .env.local, .env.development, etc.
+
+# Coverage reports
+coverage
+
+# Cache
+.cache
+.next       # if you ever use Next.js
+out
+
+# Lock files (if you don’t want to commit them, depends on your team)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+node_modules
